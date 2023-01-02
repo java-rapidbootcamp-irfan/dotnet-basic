@@ -4,32 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Statement
+namespace LogicDasar
 {
-    public class ForStatement
+    internal class Logic02Soal06
     {
-        public ForStatement()
+        public Logic02Soal06()
         {
         }
 
-        public static void SampleFor()
+        public static void CetakData(int n)
         {
-            Console.WriteLine("Masukan Angka : ");
-            string? nStr = Console.ReadLine();
-            int n = nStr == null ? 0 : int.Parse(nStr);
-
+            int angka = 1;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (i == j || i + j == n - 1)
+                    if (j >= i && j <= n - i - 1 || j <= i && j >= n - i - 1)
                     {
-                        Console.Write("[" + i + "," + j + "]\t");
+                        Console.Write( angka + "\t");
                     }
                     else
                     {
                         Console.Write("\t");
                     }
+                    angka += 2;
                 }
                 Console.WriteLine("\n");
             }

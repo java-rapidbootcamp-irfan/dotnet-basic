@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Statement
 {
-    internal class MainStatement
+    public class MainStatement
     {
+        public MainStatement()
+        {
+        }
+
+        public static void Main()
+        {
+            Declarative.SampleDeclarative();
+            ForStatement.SampleFor();
+        }
     }
 }

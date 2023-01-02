@@ -1,38 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Statement
+namespace LogicDasar
 {
-    public class ForStatement
+    public class Logic02Soal04
     {
-        public ForStatement()
+        public Logic02Soal04()
         {
         }
 
-        public static void SampleFor()
+        public static void CetakData(int n)
         {
-            Console.WriteLine("Masukan Angka : ");
-            string? nStr = Console.ReadLine();
-            int n = nStr == null ? 0 : int.Parse(nStr);
-
+            int angka = 1;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (i == j || i + j == n - 1)
+                    if (j == 0 || i == 0 || j == n - 1 || i == n - 1 ||
+                        j == n / 2 || i == n / 2)
                     {
-                        Console.Write("[" + i + "," + j + "]\t");
+                        Console.Write(angka + "\t");
                     }
                     else
                     {
                         Console.Write("\t");
                     }
+                    angka += 2;
                 }
                 Console.WriteLine("\n");
             }
         }
+        }
     }
-}

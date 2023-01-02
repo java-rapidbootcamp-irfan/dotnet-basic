@@ -1,6 +1,6 @@
 ﻿public class Declarative
 {
-    public static void Main()
+    public static void SampleDeclarative()
     {
         Console.WriteLine("Declarative test");
         //variable
