@@ -1,0 +1,15 @@
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.exe
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.deps.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.runtimeconfig.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\bin\Debug\net7.0\Statement.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.AssemblyReference.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.GeneratedMSBuildEditorConfig.editorconfig
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfoInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.AssemblyInfo.cs
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.csproj.CoreCompileInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\refint\Statement.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\Statement.genruntimeconfig.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Statement\obj\Debug\net7.0\ref\Statement.dll
