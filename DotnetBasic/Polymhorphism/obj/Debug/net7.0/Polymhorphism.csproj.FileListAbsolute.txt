@@ -1,0 +1,15 @@
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\bin\Debug\net7.0\Polymhorphism.exe
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\bin\Debug\net7.0\Polymhorphism.deps.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\bin\Debug\net7.0\Polymhorphism.runtimeconfig.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\bin\Debug\net7.0\Polymhorphism.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\bin\Debug\net7.0\Polymhorphism.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.csproj.AssemblyReference.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.GeneratedMSBuildEditorConfig.editorconfig
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.AssemblyInfoInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.AssemblyInfo.cs
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.csproj.CoreCompileInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\refint\Polymhorphism.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\Polymhorphism.genruntimeconfig.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\Polymhorphism\obj\Debug\net7.0\ref\Polymhorphism.dll
