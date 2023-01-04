@@ -5,8 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using DataTypes.CustomType;
 using DataTypes.Inheritance;
+using DataTypes.InheritanceType;
+using DataTypes.ObjectType;
 using DataTypes.OOP;
 using DataTypes.OOP.Inheritance;
+using DataTypes.PolyType;
 
 namespace DataTypes
 {
@@ -36,8 +39,98 @@ namespace DataTypes
             //InterestEarningAccountsample();
             //LineOfCreditAccountSample();
             //AutomobileSample();
-            BookPublicationSample();
+            //BookPublicationSample();
+            //SampleObject();
+            //SampleInheritance();
+            //SamplePolymorphism();
+            SampleClassImplement.InterfaceImplement();
         }
+        #region Sample Interface
+
+        #endregion
+
+
+
+
+
+
+        #region Polimorphism
+        public static void SamplePolymorphism()
+        {
+           
+            var shapes = new List<Shape>
+            {
+                new Rectangle(),
+                new Triangle(),
+                new Circle()
+            };
+ 
+            foreach (var shape in shapes)
+            {
+                shape.Draw();
+            }
+           
+        }
+        #endregion
+
+
+        #region Sample Inheritance
+        public static void SampleInheritance()
+        {
+            // Create an instance of WorkItem by using the constructor in the
+            // base class that takes three arguments.
+            WorkItem item = new WorkItem("Fix Bugs",
+                                        "Fix all bugs in my code branch",
+                                        new TimeSpan(3, 4, 0, 0));
+
+            // Create an instance of ChangeRequest by using the constructor in
+            // the derived class that takes four arguments.
+            ChangeRequest change = new ChangeRequest("Change Base Class Design",
+                                                    "Add members to the class",
+                                                    new TimeSpan(4, 0, 0),
+                                                    1);
+
+            // Use the ToString method defined in WorkItem.
+            Console.WriteLine(item.ToString());
+
+            // Use the inherited Update method to change the title of the
+            // ChangeRequest object.
+            change.Update("Change the Design of the Base Class",
+                new TimeSpan(4, 0, 0));
+
+            // ChangeRequest inherits WorkItem's override of ToString.
+            Console.WriteLine(change.ToString());
+        }
+        #endregion
+
+
+        #region Sample Object
+        public static void SampleObject()
+        {
+            //menampilkan person
+            Person person1 = new Person("Kezia", 26);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            // Declare new person, assign person1 to it.
+            Person person2 = person1;
+
+            // Change the name of person2, and person1 also changes.
+            person2.Name = "Molly";
+            person2.Age = 16;
+
+            Console.WriteLine("person2 Name = {0} Age = {1}", person2.Name, person2.Age);
+            Console.WriteLine("person1 Name = {0} Age = {1}", person1.Name, person1.Age);
+
+            Person person3 = new Person("Roni", 30);
+            Console.WriteLine("person3 Name = {0} Age = {1}", person3.Name, person3.Age);
+
+            // menampilakn product
+            Product product1 = new Product("Mobil", 50000000, "Masih Baru");
+            Console.WriteLine("product1 Name = {0} Price = {1} Category = {2} "
+                , product1.Name, product1.Price, product1.Category);
+        }
+        
+        #endregion
 
 
         #region Inheritance Publication book
