@@ -14,16 +14,15 @@ namespace LogicDasar
 
         public static void CetakData(int n)
         {
-           int M = n/2;
+           int median = n/2;
             int angka = 0;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (j-i >= M && i-j <= M + n-1 ||
-                        j+i <= M && i+j <= M + n-1 || 
-                        j-i <= M && i+j >= M + n-1)
-                      
+                    if (j - i >= median || i - j >= median || i + j <= median 
+                        || i + j >= median + n - 1)
+
                     {
                         Console.Write(angka +"\t");
                     }

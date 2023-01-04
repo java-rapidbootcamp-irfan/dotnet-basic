@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataTypes.CustomType;
+using DataTypes.Inheritance;
 using DataTypes.OOP;
+using DataTypes.OOP.Inheritance;
+
 namespace DataTypes
 {
     public struct Coords
@@ -30,9 +33,51 @@ namespace DataTypes
             //SampleClass();
             //BankAccountSample();
             //GiftCardAccountSample();
-            InterestEarningAccountsample();
+            //InterestEarningAccountsample();
             //LineOfCreditAccountSample();
+            //AutomobileSample();
+            BookPublicationSample();
         }
+
+
+        #region Inheritance Publication book
+        public static void BookPublicationSample()
+        {
+            var book = new Book("The Tempest", "0971655819", "Shakespeare, William",
+                                "Public Domain Press");
+            ShowPublicationInfo(book);
+            book.Publish(new DateTime(2016, 8, 18));
+            ShowPublicationInfo(book);
+
+            var book2 = new Book("The Tempest", "Classic Works Press", "Shakespeare, William");
+            Console.Write($"{book.Title} and {book2.Title} are the same publication: " +
+                  $"{((Publication)book).Equals(book2)}");
+        }
+
+        public static void ShowPublicationInfo(Publication pub)
+        {
+            string pubDate = pub.GetPublicationDate();
+            Console.WriteLine($"{pub.Title}, " +
+                      $"{(pubDate == "NYP" ? "Not Yet Published" : "published on " + pubDate):d} by {pub.Publisher}");
+        }
+        #endregion
+
+        #region Inheritance Example Automobile
+        public static void AutomobileExample()
+        {
+            var packard = new Automobile("Packard", "Custom Eight", 1948);
+            Console.WriteLine(packard);
+        }
+        #endregion
+
+
+        #region Sample Inheritance Automobile
+        public static void AutomobileSample()
+        {
+            var rubicon = new Automobile("Rubicon", "Werngler", 2002);
+            Console.WriteLine(rubicon);
+        }
+        #endregion
 
         #region Sample LineofCredit
         public static void LineOfCreditAccountSample()
@@ -118,13 +163,13 @@ namespace DataTypes
         #region Sample BankAccount
         public static void BankAccountSample()
         {
-            var account = new BankAccount("Plato", 100000000);
+            var account = new BankAccount("Irfan", 100000000);
             Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
 
-            var account2 = new BankAccount("Aristoteles", 1000000000);
+            var account2 = new BankAccount("Budi", 1000000000);
             Console.WriteLine($"Account {account2.Number} was created for {account2.Owner} with {account2.Balance} initial balance.");
 
-            var account3 = new BankAccount("Socrates", 10000000000);
+            var account3 = new BankAccount("Diego", 10000000000);
             Console.WriteLine($"Account {account3.Number} was created for {account3.Owner} with {account3.Balance} initial balance.");
         }
         #endregion
