@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogicDasar
 {
-    internal class Logic02Soal10
+    public class Logic02Soal10
     {
         public Logic02Soal10()
         {
@@ -20,9 +20,8 @@ namespace LogicDasar
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (j - i >= median || i - j >= median || i + j <= median 
-                        || i + j >= median + n - 1)
-
+                    if (j - i >= median || i - j >= median ||
+                        i + j <= median || i + j >= median + n - 1)
                     {
                         Console.Write(angka +"\t");
                     }

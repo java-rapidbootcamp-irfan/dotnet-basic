@@ -33,6 +33,12 @@ namespace LogicDasar
             Console.WriteLine("Logic 02 Soal 06 " + "\n");
             Logic02Soal06.CetakData(n);
 
+            Console.WriteLine("Logic 02 Soal 07 " + "\n");
+            Logic02Soal07.CetakData(n);
+
+            Console.WriteLine("Logic 02 Soal 08 " + "\n");
+            Logic02Soal08.CetakData(n);
+
             Console.WriteLine("Logic 02 Soal 09 " + "\n");
             Logic02Soal09.CetakData(n);
 
