@@ -1,0 +1,15 @@
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\bin\Debug\net7.0\LinqTutorial.exe
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\bin\Debug\net7.0\LinqTutorial.deps.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\bin\Debug\net7.0\LinqTutorial.runtimeconfig.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\bin\Debug\net7.0\LinqTutorial.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\bin\Debug\net7.0\LinqTutorial.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.AssemblyReference.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.GeneratedMSBuildEditorConfig.editorconfig
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfoInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.AssemblyInfo.cs
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.csproj.CoreCompileInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\refint\LinqTutorial.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\LinqTutorial.genruntimeconfig.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\LinkqTutorial\obj\Debug\net7.0\ref\LinqTutorial.dll

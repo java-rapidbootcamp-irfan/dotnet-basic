@@ -1,0 +1,15 @@
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\bin\Debug\net7.0\Sample101Linq.exe
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\bin\Debug\net7.0\Sample101Linq.deps.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\bin\Debug\net7.0\Sample101Linq.runtimeconfig.json
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\bin\Debug\net7.0\Sample101Linq.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\bin\Debug\net7.0\Sample101Linq.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.csproj.AssemblyReference.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.GeneratedMSBuildEditorConfig.editorconfig
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.AssemblyInfoInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.AssemblyInfo.cs
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.csproj.CoreCompileInputs.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\refint\Sample101Linq.dll
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.pdb
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\Sample101Linq.genruntimeconfig.cache
+E:\Codes\belajar dotnet\dotnet-basic\DotnetBasic\SampleLinq\obj\Debug\net7.0\ref\Sample101Linq.dll
